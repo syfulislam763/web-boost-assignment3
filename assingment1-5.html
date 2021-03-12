@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment of webboost</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><input id="search-box" placeholder="search" type="search" /></li>
+        </ul>
+    </nav>
+
+    <div class="css-box-model">
+        <h1>CSS BOX MODEL</h1>
+        <div class="margin">
+            <h1>Margin</h1>
+            <div class="border">
+                <h1>Border</h1>
+                <div class="padding">
+                    <h1>Padding</h1>
+                    <div class="content">
+                        <h1>Content</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Cards</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KLpa3EPtt5uex2fkCbqWlk3BVoXztRqDJQ&usqp=CAU" alt="">
+            <h4>What is Lorem Ipsum?</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <button class="card-btn">details</button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KLpa3EPtt5uex2fkCbqWlk3BVoXztRqDJQ&usqp=CAU" alt="">
+            <h4>What is Lorem Ipsum?</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <button class="card-btn">details</button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KLpa3EPtt5uex2fkCbqWlk3BVoXztRqDJQ&usqp=CAU" alt="">
+            <h4>What is Lorem Ipsum?</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <button class="card-btn">details</button>
+        </div>
+    </div>
+
+
+    <h1>Ordered list and unordered list</h1>
+    <div class="list">
+        <div class="ordered-list">
+            <h4>Name of continents</h4>
+            <ol type="1">
+                <li>Asia</li>
+                <li>Europe</li>
+                <li>North America</li>
+                <li>South America</li>
+                <li>Africa</li>
+                <li>Australia</li>
+                <li>Antarctica</li>
+            </ol>
+        </div>
+        <div class="unordered-list">
+            <h4>Name of division of bangladehs</h4>
+            <ul>
+                <li>Dhaka</li>
+                <li>Chattogram</li>
+                <li>Rajshahi</li>
+                <li>Khulna</li>
+                <li>Sylhet</li>
+                <li>Barisal</li>
+                <li>Rangpur</li>
+                <li>Mymonsing</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="signUp-form">
+        <h1 style="color: rgba(68, 155, 68, 0.877);">Sign up Form</h1>
+        <form>
+            <label><strong>First Name:</strong></label>
+            <input type="text" placeholder="First Name" />
+            <br><br>
+            <label><strong>Last Name:</strong></label>
+            <input type="text" placeholder="Last Name" />
+            <br><br>
+            <label><strong>E-Mail:</strong></label>
+            <input type="email" placeholder="example@gmail.com" />
+            <br><br>
+            <label><strong>Password:</strong></label>
+            <input type="password" placeholder="******" />
+            <br><br>
+            <p>please select your vehicles</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+            <br><br>
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <p>Please select your age:</p>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label><br>  
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label>
+            <br><br>
+
+            <label for="country">Choose your country:</label><br>
+            <select id="country">
+                <option value="volvo">India</option>
+                <option value="saab">Pakistan</option>
+                <option value="vw">Srilanka</option>
+                <option value="audi" selected>Bangladesh</option>
+            </select>
+
+            <br><br>
+            <button class="submit-btn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
